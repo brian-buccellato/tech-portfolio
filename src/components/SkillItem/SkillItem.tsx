@@ -1,13 +1,18 @@
 import Avatar from '@mui/material/Avatar';
-import Typography from '@mui/joy/Typography';
-import  { Skill } from '../../types/Skill';
-import { Box } from '@mui/joy';
+import { Skill } from '../../types/Skill';
+
+import { ListItem, ListItemAvatar, ListItemText } from '@mui/material';
 
 export default function SkillItem(skill: Skill) {
   return (
-    <Box>
-      <Avatar src={skill.icon} sx={{ width: '50px', height: '50px' }} />
-      <Typography level="body-sm">{skill.name}</Typography>
-    </Box>
+
+    <ListItem>
+      <>
+        <ListItemAvatar>
+          <Avatar src={skill.icon} sx={{ width: '50px', height: '50px' }} />
+        </ListItemAvatar>
+        <ListItemText>{skill.name}</ListItemText>
+      </>
+    </ListItem>
   );
 }
