@@ -1,13 +1,13 @@
 import './App.css'
+import ResponsiveAppBar from './components/NavBar/NavBar';
+import About from './views/About';
 
 function App() {
 
   return (
     <>
-      <h1>Vite + React</h1>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
+      <ResponsiveAppBar />
+      <About />
     </>
   )
 }
