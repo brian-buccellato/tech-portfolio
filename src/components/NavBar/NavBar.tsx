@@ -10,6 +10,7 @@ import Container from '@mui/material/Container';
 import Button from '@mui/material/Button';
 import MenuItem from '@mui/material/MenuItem';
 import { Avatar } from '@mui/material';
+import siteLogo from '../../assets/logo.svg';
 
 const pages: string[] = ['About', 'Projects', 'Contact'];
 
@@ -31,7 +32,7 @@ function ResponsiveAppBar() {
         position="static">
       <Container maxWidth="xl">
         <Toolbar disableGutters>
-        <Avatar src='/src/assets/logo.svg' sx={{ display: { xs: 'none', md: 'flex' }, mr: 1 }} />
+        <Avatar src={siteLogo} sx={{ display: { xs: 'none', md: 'flex' }, mr: 1 }} />
           <Typography
             variant="h5"
             noWrap
@@ -83,7 +84,7 @@ function ResponsiveAppBar() {
               ))}
             </Menu>
           </Box>
-          <Avatar src='/src/assets/logo.svg' sx={{ display: { xs: 'flex', md: 'none' }, mr: 1 }} />
+          <Avatar src={siteLogo} sx={{ display: { xs: 'flex', md: 'none' }, mr: 1 }} />
           <Typography
             variant="h5"
             component="a"

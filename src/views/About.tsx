@@ -8,10 +8,10 @@ export default function About() {
   return (
     <section className={"section-container"}>
         <Grid container spacing={1} sx={{flexGrow: 1 }}>
-          <Grid rowSpacing={2} xs={6} md={4}>
+          <Grid rowSpacing={2} xs={12} md={4}>
             <BioCard />
           </Grid>
-          <Grid rowSpacing={2} xs={6} md={8}>
+          <Grid rowSpacing={2} xs={12} md={8}>
             <SkillsCard />
           </Grid>    
         </Grid>
