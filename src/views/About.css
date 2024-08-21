@@ -1,0 +1,9 @@
+.section-container {
+    padding: 15px 15px 0px 15px;
+}
+
+@media screen and (max-width: 768px) {
+    .section-container {
+        padding: 5px 5px 0px 5px;
+    }   
+}
