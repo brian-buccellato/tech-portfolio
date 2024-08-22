@@ -39,7 +39,6 @@ function ResponsiveAppBar() {
             component="a"
             sx={{
               color: 'white',  
-              fontFamily: 'Work Sans',
               mr: 2,
               display: { xs: 'none', md: 'flex' },
               textDecoration: 'none',
@@ -89,7 +88,6 @@ function ResponsiveAppBar() {
             variant="h5"
             component="a"
             sx={{
-              fontFamily: 'Work Sans',
               color: 'antiquewhite',  
               mr: 2,
               display: { xs: 'flex', md: 'none' },
