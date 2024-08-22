@@ -3,7 +3,6 @@ import ResponsiveAppBar from './components/NavBar/NavBar';
 import About from './views/About';
 
 function App() {
-
   return (
     <>
       <ResponsiveAppBar />
