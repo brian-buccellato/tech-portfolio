@@ -38,7 +38,7 @@ function ResponsiveAppBar() {
             noWrap
             component="a"
             sx={{
-              color: 'antiquewhite',  
+              color: 'white',  
               fontFamily: 'Work Sans',
               mr: 2,
               display: { xs: 'none', md: 'flex' },

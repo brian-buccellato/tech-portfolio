@@ -5,6 +5,7 @@ import CardContent  from "@mui/joy/CardContent";
 import IconButton from '@mui/joy/IconButton';
 import Typography from '@mui/joy/Typography';
 import SvgIcon from '@mui/joy/SvgIcon';
+import headShot from '../../assets/test-shot2.png';
 
 export default function BioCard() {
     return (
@@ -16,7 +17,7 @@ export default function BioCard() {
         }}
       >
         <CardContent sx={{ alignItems: 'center', textAlign: 'center' }}>
-          <Avatar src="/static/images/avatar/1.jpg" sx={{ '--Avatar-size': '15vw' }} />
+          <Avatar src={headShot} sx={{ '--Avatar-size': '20vw' }} />
           <Typography level="title-lg">Brian Buccellato</Typography>
           <Typography level="body-sm">
             Data Engineer with a proven track record of building and optimizing data pipelines to 
