@@ -1,12 +1,21 @@
 import './App.css'
 import ResponsiveAppBar from './components/NavBar/NavBar';
-import About from './views/About';
+import About from './views/About/About';
+import {
+  BrowserRouter,
+  Routes,
+  Route,
+} from 'react-router-dom';
+import Projects from './views/Projects/Projects';
 
 function App() {
   return (
     <>
       <ResponsiveAppBar />
-      <About />
+      <Routes>
+        <Route path="/" element={<About />} />
+        <Route path="/projects" element={<Projects/>} />
+      </Routes>
     </>
   )
 }

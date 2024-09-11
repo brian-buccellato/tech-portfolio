@@ -1,7 +1,7 @@
-import BioCard from "../components/BioCard/BioCard";
-import SkillsCard from "../components/SkillsCard/SkillsCard";
+import BioCard from "../../components/BioCard/BioCard";
+import SkillsCard from "../../components/SkillsCard/SkillsCard";
 import Grid from "@mui/joy/Grid";
-import ResumeCard from "../components/ResumeCard/ResumeCard";
+import ResumeCard from "../../components/ResumeCard/ResumeCard";
 import './About.css';
 
 export default function About() {

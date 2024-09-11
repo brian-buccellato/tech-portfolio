@@ -16,9 +16,10 @@
 
 a {
   font-weight: 500;
-  /* color: #646cff; */
+  color: white;
   text-decoration: inherit;
 }
+
 a:hover {
   color: #b9b9c5;
 }
