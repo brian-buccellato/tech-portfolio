@@ -2,7 +2,6 @@ import './App.css'
 import ResponsiveAppBar from './components/NavBar/NavBar';
 import About from './views/About/About';
 import {
-  BrowserRouter,
   Routes,
   Route,
 } from 'react-router-dom';
