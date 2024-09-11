@@ -3,7 +3,7 @@ import { CardContent } from "@mui/joy";
 import { Typography } from "@mui/joy";
 import { List, ListItem, ListItemIcon } from "@mui/material";
 import { 
-  Favorite, PaletteOutlined,
+  PaletteOutlined,
   LocalHospitalOutlined, 
   FlightTakeoffOutlined, 
   AccountBalanceOutlined,
