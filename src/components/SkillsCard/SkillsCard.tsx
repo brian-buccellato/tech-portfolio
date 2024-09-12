@@ -1,7 +1,7 @@
 import Card from '@mui/joy/Card';
 import CardContent from "@mui/joy/CardContent";
 import Typography from '@mui/joy/Typography';
-import { Grid, useMediaQuery, Divider } from '@mui/material';
+import { Grid, useMediaQuery } from '@mui/material';
 import { Skill } from "../../types/Skill";
 import SkillItem from "../SkillItem/SkillItem";
 
