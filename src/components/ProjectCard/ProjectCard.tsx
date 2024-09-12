@@ -60,7 +60,7 @@ export default function ProjectCard() {
       skills: [
         {name: 'Python', icon: python},
         {name: 'SQL', icon: sql},
-        {name: 'DBT Core', icon: dbt},
+        {name: 'Dbt Core', icon: dbt},
         {name: 'Terraform', icon: terraform},
         {name: 'Elastic Container Service (ECS)', icon: ecs},
         {name: 'Elastic Container Registry (ECR)', icon: ecr},

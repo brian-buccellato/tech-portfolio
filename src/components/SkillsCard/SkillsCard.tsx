@@ -71,7 +71,7 @@ export default function SkillsCard() {
     { icon: jupyter, name: 'Jupyter' },  
   ];
   const etl: Skill[] = [
-    { icon: dbt, name: 'dbt Core' },
+    { icon: dbt, name: 'Dbt Core' },
     { icon: luigi, name: 'Luigi' },
     { icon: nifi, name: 'NiFi' },
   ];
