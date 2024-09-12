@@ -9,7 +9,7 @@ export default function SkillItem(skill: Skill) {
     <ListItem>
       <>
         <ListItemAvatar>
-          <Avatar src={skill.icon} sx={{ width: '50px', height: '50px' }} />
+          <Avatar src={skill.icon} sx={{ width: '32px', height: '32px' }} />
         </ListItemAvatar>
         <ListItemText>{skill.name}</ListItemText>
       </>
