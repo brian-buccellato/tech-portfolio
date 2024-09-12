@@ -22,8 +22,9 @@ export default function BioCard() {
           <Typography level="body-sm">
             Pragmatic Data Engineer and Full Stack Web Developer with a proven track record of building and optimizing data pipelines to 
             drive business insights. Skilled in leveraging AWS cloud technologies, Python and SQL to 
-            deliver scalable and reliable data solutions. Proven ability to collaborate with cross-functional 
-            teams to deliver impactful data products.  
+            deliver scalable and reliable data solutions. Well experienced in collaboration with cross-functional 
+            teams to deliver impactful data products.  Managerial and Technical leadership experience.  Away from work, I am passionate 
+            about creating music, playing drums, music production, and spending time with my family.   
           </Typography>
           <Grid sx={{ display: "flex", flexDirection: "row" }}>
             <Link href="https://www.linkedin.com/in/brian-buccellato-a36bb5ba/" target="_blank">

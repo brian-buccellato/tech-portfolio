@@ -74,12 +74,12 @@ export default function ProjectCard() {
       link: 'https://github.com/brian-buccellato/dbt-python-aws-data-engineering-template',
     },
     {
-      name: 'This Site :)',
+      name: 'This Portfolio Site',
       description: `This site is a portfolio project built with React and Material-UI.  Although it is a static site and didn't require React, I wanted to use it as a gentle reintroduction to the framework as I've been mainly on backend and data engineering projects for the past few years.  It is served from AWS cloudfront assets stored in S3.  Deployments are automated through github actions.  The site remains a work in progress and I'm excited to add some new features such as user action tracking via GTM as well as showcase some new projects in the near future.`,
       skills: [
         {name: 'React', icon: react},
         {name: 'TypeScript', icon: ts},
-        {name: 'Material UI.', icon: mui},
+        {name: 'Material UI', icon: mui},
         {name: 'AWS Cloudfront', icon: cf},
         {name: 'Simple Storage Service (S3)', icon: s3},
         {name: 'Route 53', icon: r53},
