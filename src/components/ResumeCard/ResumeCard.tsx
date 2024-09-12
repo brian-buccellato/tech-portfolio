@@ -153,7 +153,7 @@ export default function ResumeCard() {
             </ListItemIcon>
             <Typography level="body-sm">
               Developed custom data visualizations using AngularJS, allowing clients to configure their own dashboards and interact 
-              with their data in a manor tailored to their specific needs. 
+              with their data in a manner tailored to their specific needs. 
             </Typography>
           </ListItem>
         </List>
