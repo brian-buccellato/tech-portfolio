@@ -6,7 +6,7 @@ import { ListItem, ListItemAvatar, ListItemText } from '@mui/material';
 export default function SkillItem(skill: Skill) {
   return (
 
-    <ListItem>
+    <ListItem alignItems="flex-start">
       <>
         <ListItemAvatar>
           <Avatar src={skill.icon} sx={{ width: '32px', height: '32px' }} />
