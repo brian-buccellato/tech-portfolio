@@ -101,7 +101,7 @@ export default function ProjectCard() {
       }}>
         <CardContent
           sx={{ alignItems: 'left', textAlign: 'left' }}>
-          <Typography sx={{textAlign: 'center', marginBottom: '8px'}} level="title-lg">{project.name}</Typography>    
+          <Typography sx={{textAlign: 'center', marginBottom: '8px'}} level="h2">{project.name}</Typography>    
           <Grid container spacing={2}>
             <Grid item xs={12}>
               <Typography level="body-md">{project.description}</Typography>
