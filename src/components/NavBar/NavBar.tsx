@@ -18,7 +18,7 @@ import { NavLinkConfig } from '../../types/NavLinkConfig';
 const pages: NavLinkConfig[] = [
   { name: 'About', path: '/' },
   { name: 'Projects', path: "projects" },
-  { name: 'Contact', path: "/" },
+  //{ name: 'Contact', path: "/" }, hold off for now
 ];
 
 function ResponsiveAppBar() {

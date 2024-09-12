@@ -71,7 +71,7 @@ export default function SkillsCard() {
     { icon: jupyter, name: 'Jupyter' },  
   ];
   const etl: Skill[] = [
-    { icon: dbt, name: 'dbt' },
+    { icon: dbt, name: 'dbt Core' },
     { icon: luigi, name: 'Luigi' },
     { icon: nifi, name: 'NiFi' },
   ];
@@ -110,9 +110,9 @@ export default function SkillsCard() {
     }}>
       <CardContent
         sx={{ alignItems: 'left', textAlign: 'left' }}>
-        <Typography sx={{textAlign: 'center'}} level="title-lg">Professional Skills</Typography>    
+        <Typography sx={{textAlign: 'center'}} level="h2">Professional Skills</Typography>    
         <Grid container>
-          <Typography level="title-md">Languages</Typography>
+          <Typography level="h4" sx={{marginBottom: '5px'}}>Languages</Typography>
           {chunkedLanguages.map((row, rowIndex) => (
             <Grid container key={rowIndex}>
               {row.map((skill, skillIndex) => (
@@ -122,9 +122,9 @@ export default function SkillsCard() {
               ))}
             </Grid>
           ))}
-          <Typography level="title-md">Data Platforms</Typography>
+          <Typography level="h4" sx={{marginBottom: '5px'}}>Data Platforms</Typography>
           {chunkedPlatforms.map((row, rowIndex) => (
-            <Grid container key={rowIndex}>
+            <Grid container key={rowIndex} sx={{marginBottom: '5px'}}>
               {row.map((skill, skillIndex) => (
                 <Grid item xs={isMobile ? 6 : 4} key={skillIndex}>
                   <SkillItem key={skill.name} {...skill} />
@@ -132,9 +132,9 @@ export default function SkillsCard() {
               ))}
             </Grid>
           ))}
-          <Typography level="title-md">ETL + ELT</Typography>
+          <Typography level="h4" sx={{marginBottom: '5px'}}>ETL + ELT</Typography>
           {chunkedEtl.map((row, rowIndex) => (
-            <Grid container key={rowIndex}>
+            <Grid container key={rowIndex} sx={{marginBottom: '5px'}}>
               {row.map((skill, skillIndex) => (
                 <Grid item xs={isMobile ? 6 : 4} key={skillIndex}>
                   <SkillItem key={skill.name} {...skill} />
@@ -142,9 +142,9 @@ export default function SkillsCard() {
               ))}
             </Grid>
           ))}
-          <Typography level="title-md">AWS Cloud</Typography>
+          <Typography level="h4" sx={{marginBottom: '5px'}}>AWS Cloud</Typography>
           {chunkedAwsClouds.map((row, rowIndex) => (
-            <Grid container key={rowIndex}>
+            <Grid container key={rowIndex} sx={{marginBottom: '5px'}}>
               {row.map((skill, skillIndex) => (
                 <Grid item xs={isMobile ? 6 : 4} key={skillIndex}>
                   <SkillItem key={skill.name} {...skill} />
@@ -152,9 +152,9 @@ export default function SkillsCard() {
               ))}
             </Grid>
           ))}
-          <Typography level="title-md">Orchestration and CI/CD</Typography>
+          <Typography level="h4" sx={{marginBottom: '5px'}}>Orchestration and CI/CD</Typography>
           {chunkedOrchestration.map((row, rowIndex) => (
-            <Grid container key={rowIndex}>
+            <Grid container key={rowIndex} sx={{marginBottom: '5px'}}>
               {row.map((skill, skillIndex) => (
                 <Grid item xs={isMobile ? 6 : 4} key={skillIndex}>
                   <SkillItem key={skill.name} {...skill} />
@@ -162,9 +162,9 @@ export default function SkillsCard() {
               ))}
             </Grid>
           ))}
-          <Typography level="title-md">Marketing</Typography>
+          <Typography level="h4" sx={{marginBottom: '5px'}}>Marketing</Typography>
           {chunkedMarketing.map((row, rowIndex) => (
-            <Grid container key={rowIndex}>
+            <Grid container key={rowIndex} sx={{marginBottom: '5px'}}>
               {row.map((skill, skillIndex) => (
                 <Grid item xs={isMobile ? 6 : 4} key={skillIndex}>
                   <SkillItem key={skill.name} {...skill} />
