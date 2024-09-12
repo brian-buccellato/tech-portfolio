@@ -18,7 +18,7 @@ import { NavLinkConfig } from '../../types/NavLinkConfig';
 const pages: NavLinkConfig[] = [
   { name: 'About', path: '/' },
   { name: 'Projects', path: "projects" },
-  { name: 'Contact', path: "/" },
+  //{ name: 'Contact', path: "/" }, hold off for now
 ];
 
 function ResponsiveAppBar() {
@@ -78,7 +78,7 @@ function ResponsiveAppBar() {
               open={Boolean(anchorElNav)}
               onClose={handleCloseNavMenu}
               sx={{
-                display: { xs: 'block', md: 'none' },
+                display: { xs: 'flex', md: 'none' },
               }}
             >
               {pages.map((page) => (
@@ -110,7 +110,7 @@ function ResponsiveAppBar() {
               <Button
                 key={page.name}
                 onClick={handleCloseNavMenu}
-                sx={{ my: 2, color: 'white', display: 'block' }}
+                sx={{ my: 2, color: 'white', display: 'flex' }}
               >
                 <Link to={page.path}>
                   {page.name}
