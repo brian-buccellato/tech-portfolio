@@ -2,19 +2,18 @@ import { Card } from "@mui/joy";
 import { CardContent } from "@mui/joy";
 import { Typography } from "@mui/joy";
 import { List, ListItem, ListItemIcon } from "@mui/material";
-import { 
+import {
   PaletteOutlined,
-  LocalHospitalOutlined, 
-  FlightTakeoffOutlined, 
+  LocalHospitalOutlined,
+  FlightTakeoffOutlined,
   AccountBalanceOutlined,
-  MilitaryTechOutlined, 
+  MilitaryTechOutlined,
   NewspaperOutlined,
   AnalyticsOutlined,
   InsightsOutlined,
   SavingsOutlined,
-  PieChartOutlineOutlined, 
+  PieChartOutlineOutlined,
 } from "@mui/icons-material";
-
 
 export default function ResumeCard() {
   return (
@@ -27,10 +26,10 @@ export default function ResumeCard() {
         </Typography>
         <Typography sx={{ display: 'flex' }}>July 2017 - Present</Typography>
         <Typography level="body-sm" sx={{ display: 'flex', fontWeight: 300, textAlign: 'left' }}>
-          I've spent the majority of my engineering career at EV.  It's a cool, agile consulting shop
-          specializing in digital transformation, MVP builds, and data driven decision making.  Though just
-          one stop on my journey, I've had the opportunity to serve many clients of varying size in a variety
-          of industries wearing many different hats.
+          Headed a team of engineers in day-to-day tasks, empowered career growth via targeted trainings,
+          and attained improved performance and retention rates. Played a pivotal role in evaluating and
+          recommending cutting-edge technologies, aimed at enhancing operational efficiency and driving
+          competitive results in a rapidly evolving industry.
         </Typography>
         <Typography level="body-md" sx={{ display: 'flex' }}>Highlighted Projects</Typography>
         <List>
@@ -39,12 +38,13 @@ export default function ResumeCard() {
               <NewspaperOutlined sx={{ color: "#3b6be3" }} />
             </ListItemIcon>
             <Typography level="body-sm">
-              News organization:  Spearheaded the development and maintenance of new ETL pipelines using Python and SQL,
-              ensuring timely and accurate data flow for critical analytics.  Optimized Redshift data warehouse
-              schema design, enhancing data accessibility and query performance.  Led a successful
-              discovery initiative on leveraging tooling to group users and create email lists,
-              eliminating the need for manual curation using Segment and Sailthru.  Leveraged agile expertise to advise directors
-              on process improvements, leading to a 20% velocity increase.
+              <Typography sx={{fontWeight: "600"}}>News organization:</Typography>
+              <List sx={{ listStyleType: "disc", listStylePosition: "inside" }}>
+                <ListItem sx={{ display: "list-item" }}>Accelerated project workflows 20% and fine-tuned process bottlenecks by advising directors on agile-driven process improvements.</ListItem>
+                <ListItem sx={{ display: "list-item" }}>Steered all aspects of new ETL pipeline development via Python and SQL to systematize the data flow of critical analytics.</ListItem>
+                <ListItem sx={{ display: "list-item" }}>Boosted data accessibility and improved query performance by optimizing Redshift data warehouse schema design.</ListItem>
+                <ListItem sx={{ display: "list-item" }}>Eliminated manual email listing by researching modern tech solutions and automating user grouping via Segment and Sailthru.</ListItem>
+              </List>
             </Typography>
           </ListItem>
           <ListItem dense>
@@ -52,13 +52,12 @@ export default function ResumeCard() {
               <PaletteOutlined sx={{ color: "#141414" }} />
             </ListItemIcon>
             <Typography level="body-sm">
-              Art investment platform:  Developed and maintained library of Luigi/DBT batch ETL jobs in support of
-              marketing team reporting.  Prioritized data integrity checks with Great Expectations throughout pipelines as well
-              as observability with Cloudtrail/Grafana/Lambda/Slack leading to quicker issue diagnosis and timely delivery of mission critical
-              reporting.  Led end to end implementation of custom marketing initiatives leveraging custom GTM events and Meta Pixel, enabling 
-              more strategic re-targeting of potential investors.  Debugged and enhanced a legacy Puppeteer web scraping tool, automating 
-              valuable insight into auction trends and pricing.  Leveraged Clarifai platform to build a custom python job allowing decision makers 
-              to see which pieces of available art might be most similar to those which have generated the most profit in the past. 
+              <Typography sx={{fontWeight: "600"}}>Art Investment Platform:</Typography>
+              <List sx={{ listStyleType: "disc", listStylePosition: "inside" }}>
+                <ListItem sx={{ display: "list-item" }}>Created and managed a library of batch ETL jobs to enhance reporting capabilities for the marketing team.</ListItem>
+                <ListItem sx={{ display: "list-item" }}>Prioritized data integrity checks throughout pipelines that expedited issue resolution and delivery of essential reporting.</ListItem>
+                <ListItem sx={{ display: "list-item" }}>Supervised the entire execution of tailored marketing strategies from inception to completion that broadened brand visibility.</ListItem>
+              </List>
             </Typography>
           </ListItem>
           <ListItem dense>
@@ -66,11 +65,12 @@ export default function ResumeCard() {
               <LocalHospitalOutlined sx={{ color: "#051c2c" }} />
             </ListItemIcon>
             <Typography level="body-sm">
-              Healthcare analytics:  Rapidly prototyped data integrity verification application, saving
-              hundreds of hours by preventing long-running jobs from failing due to corrupt schema.
-              Built a tool to generate "slice" of Dev DB, enabling faster testing and streamlining development
-              workflows.  Operationalized existing Machine Learning models through PySpark ETL pipeline development,
-              improving data utilization for decision-making.
+              <Typography sx={{fontWeight: "600"}}>Healthcare Data Platform:</Typography>
+              <List sx={{ listStyleType: "disc", listStylePosition: "inside" }}>
+                <ListItem sx={{ display: "list-item" }}>Architected a data integrity verification application that cut out job failures from corrupt schemas and saved hundreds of hours.</ListItem>
+                <ListItem sx={{ display: "list-item" }}>Built a tool to generate a "slice" of the development database that sped-up development and testing processes.</ListItem>
+                <ListItem sx={{ display: "list-item" }}>Operationalized Machine Learning models through ETL pipeline development, improving data utilization for decision-making.</ListItem>
+              </List>
             </Typography>
           </ListItem>
           <ListItem dense>
@@ -78,10 +78,11 @@ export default function ResumeCard() {
               <AccountBalanceOutlined sx={{ color: "#54BEED" }} />
             </ListItemIcon>
             <Typography level="body-sm">
-              Bank loan data interactive dashboard tech lead:  Led the creation of an interactive
-              React/D3 dashboard for bank loan data, enhancing user engagement and data accessibility.
-              Designed data pipelines to facilitate more frequent data refresh, providing users with
-              up-to-date information.
+              <Typography sx={{fontWeight: "600"}}>Bank Loan Data Interactive Dashboard:</Typography>
+              <List sx={{ listStyleType: "disc", listStylePosition: "inside" }}>
+                <ListItem sx={{ display: "list-item" }}>Developed a dashboard to streamline bank loan data presentation, resulting in improved user interaction and data accessibility.</ListItem>
+                <ListItem sx={{ display: "list-item" }}>Designed data pipelines to address bottlenecks in data refresh cycles and delivered real-time data updates to users.</ListItem>
+              </List>
             </Typography>
           </ListItem>
           <ListItem dense>
@@ -89,12 +90,12 @@ export default function ResumeCard() {
               <MilitaryTechOutlined sx={{ color: "#1C2429" }} />
             </ListItemIcon>
             <Typography level="body-sm">
-              Government contract:  Joined in progress project aimed at creating a centralized super dataset of all government contractors, 
-              quickly becoming defacto tech lead.  Worked closely with clients to develop a highly normalized Postgres data model.  Rapidly 
-              digested and implemented best practices for deploying pipelines using Apache NiFi, leading to a greater development experience 
-              and higher volumed of data processed.  Developed a custom Python tool to automate pipeline component configurations, reducing the 
-              time spent by engineers doing manual configurations to zero.  Rapidly deployed a Postgraphile API to interface with the dataset allowing 
-              the team to answer questions about the data in real time during demos. 
+              <Typography sx={{fontWeight: "600"}}>Government Contract:</Typography>
+              <List sx={{ listStyleType: "disc", listStylePosition: "inside" }}>
+                <ListItem sx={{ display: "list-item" }}>Rapidly digested and implemented Apache NiFi best practices leading to a more compact development experience and over 100 times faster data processing.</ListItem>
+                <ListItem sx={{ display: "list-item" }}>Architected custom Python tool to automate pipeline component configurations, reducing manual intervention to zero.</ListItem>
+                <ListItem sx={{ display: "list-item" }}>Worked closely with clients to develop a highly normalized Postgres data model, incorporating dozens of sources.</ListItem>
+              </List>
             </Typography>
           </ListItem>
           <ListItem dense>
@@ -102,11 +103,11 @@ export default function ResumeCard() {
               <FlightTakeoffOutlined sx={{ color: "#427bff" }} />
             </ListItemIcon>
             <Typography level="body-sm">
-              Travel rewards application tech lead:  Led a team of 2-3 engineers to deliver the MVP of an application
-              designing to incentivize employees to save on travel expenses.  Mentored team members on Angular best practices, 
-              quickly migrated from a legacy Django backend to Node/Express resulting in a drastic reduction in page load times.  Built a 
-              chrome extension which interacted with a popular travel booking site, gamifying the experience of saving 
-              on travel for increased user engagement.
+              <Typography sx={{fontWeight: "600"}}>Travel Rewards Application:</Typography>
+              <List sx={{ listStyleType: "disc", listStylePosition: "inside" }}>
+                <ListItem sx={{ display: "list-item" }}>Led a team of 3 engineers, mentoring them on Angular best practices</ListItem>
+                <ListItem sx={{ display: "list-item" }}>Developed a chrome extension to interact with a travel booking site, gamifying the experience saving on business travel for increased user engagement.</ListItem>
+              </List>
             </Typography>
           </ListItem>
         </List>
@@ -116,19 +117,10 @@ export default function ResumeCard() {
         </Typography>
         <Typography sx={{ display: 'flex' }}>July 2013 - October 2016</Typography>
         <Typography level="body-sm" sx={{ display: 'flex', fontWeight: 300, textAlign: 'left' }}>
-          This was my first stop out of college.  I was part of a small team of 3-4 engineers working on an IoT
-          platform aimed at providing real-time data and analytics on HVAC systems to large industrial clients.
+          Facilitated clients in uncovering hidden energy inefficiencies and saving notable costs by offering 
+          analytics solutions using Java.
         </Typography>
         <List>
-          <ListItem dense>
-            <ListItemIcon>
-              <AnalyticsOutlined sx={{ color: "#1C2429" }} />
-            </ListItemIcon>
-            <Typography level="body-sm">
-              Conceived and developed new analytics using Java resulting in clients saving money on previously hidden
-              energy waste.
-            </Typography>
-          </ListItem>
           <ListItem dense>
             <ListItemIcon>
               <SavingsOutlined sx={{ color: "#1C2429" }} />
@@ -143,8 +135,7 @@ export default function ResumeCard() {
               <InsightsOutlined sx={{ color: "#1C2429" }} />
             </ListItemIcon>
             <Typography level="body-sm">
-              Prototyped our first set of predictive analytics using Java allowing clients to investigate potential maintenance 
-              issues before they became critical.
+              Introduced a predictive analytics model using Java to identify, categorize, and address potential maintenance issues.
             </Typography>
           </ListItem>
           <ListItem dense>
@@ -152,12 +143,10 @@ export default function ResumeCard() {
               <PieChartOutlineOutlined sx={{ color: "#1C2429" }} />
             </ListItemIcon>
             <Typography level="body-sm">
-              Developed custom data visualizations using AngularJS, allowing clients to configure their own dashboards and interact 
-              with their data in a manner tailored to their specific needs. 
+              Designed data visualizations with AngularJS to customize dashboards and manage the data in a case-specific manner.
             </Typography>
           </ListItem>
         </List>
-
       </CardContent>
     </Card>
   );
