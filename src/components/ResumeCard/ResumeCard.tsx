@@ -9,7 +9,6 @@ import {
   AccountBalanceOutlined,
   MilitaryTechOutlined,
   NewspaperOutlined,
-  AnalyticsOutlined,
   InsightsOutlined,
   SavingsOutlined,
   PieChartOutlineOutlined,
