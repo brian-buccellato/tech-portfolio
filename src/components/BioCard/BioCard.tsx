@@ -20,10 +20,12 @@ export default function BioCard() {
           <Avatar src={headShot} sx={{ '--Avatar-size': '20vw' }} />
           <Typography level="title-lg">Brian Buccellato</Typography>
           <Typography level="body-sm">
-            Pragmatic Data Engineer and Full Stack Web Developer with a proven track record of building and optimizing data pipelines to 
-            drive business insights. Skilled in leveraging AWS cloud technologies, Python and SQL to 
-            deliver scalable and reliable data solutions. Well experienced in collaboration with cross-functional 
-            teams to deliver impactful data products.  Managerial and Technical leadership experience.  Away from work, I am passionate 
+            Engineering professional with 10+ years of experience leading technical teams and driving 
+            technological advancements within diverse sectors. Architected innovative solutions and 
+            streamlined business operations through expert knowledge of ETL processes, data integrity, 
+            and predictive analytics. Spearheaded successful projects that enhanced data accessibility 
+            and improved operational efficiency. Leveraged cutting-edge technologies to optimize 
+            workflows and empower team growth in a fast-paced environment.  Away from work, I am passionate 
             about creating music, playing drums, music production, and spending time with my family.   
           </Typography>
           <Grid sx={{ display: "flex", flexDirection: "row" }}>

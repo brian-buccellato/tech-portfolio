@@ -110,7 +110,7 @@ export default function SkillsCard() {
     }}>
       <CardContent
         sx={{ alignItems: 'left', textAlign: 'left' }}>
-        <Typography sx={{textAlign: 'center'}} level="h2">Professional Skills</Typography>    
+        <Typography sx={{textAlign: 'center'}} level="h2">Technical Competencies</Typography>    
         <Grid container>
           <Typography level="h4" sx={{marginBottom: '5px'}}>Languages</Typography>
           {chunkedLanguages.map((row, rowIndex) => (
